@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/casechat?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8&autoReconnect=true&rewriteBatchedStatements=true
+      username: root
+      password: 123456
+
+mybatis-plus:
+  configuration:
+    # 自动驼峰命名规则（camel case）映射
+    mapUnderscoreToCamelCase: true
+    logImpl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    dbConfig:
+      # 主键类型
+      # AUTO 自增 NONE 空 INPUT 用户输入 ASSIGN_ID 雪花 ASSIGN_UUID 唯一 UUID
+      idType: AUTO
