@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="adb08c33-9b13-470e-adf2-59f0f87604c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/casechat/CasechatApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="adb08c33-9b13-470e-adf2-59f0f87604c8" name="Changes" comment="project initialization">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/FITS/casechat/CaseChatApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/FITS/casechat/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/casechat/CasechatApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/FITS/casechat/CasechatApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,26 +49,46 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ice/Desktop/charmai",
+    "last_opened_file_path": "D:/user/Documents/case",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings"
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "31d1f4c88098890cb39a4c8902b0f628"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "94b13269-6886-4b87-99dc-895af832ce0c/schema/\"casechat\""
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\user\Documents\casechat\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.FITS.casechat" />
+    </key>
   </component>
-  <component name="RunManager">
-    <configuration name="CasechatApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.CaseChatApplicationTests">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.FITS.casechat.CodeGenerator" />
       <module name="casechat" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.casechat.CasechatApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.casechat.*" />
+          <option name="PATTERN" value="com.FITS.casechat.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,9 +96,56 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="user.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sql/user.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="94b13269-6886-4b87-99dc-895af832ce0c" namespace="schema/&quot;casechat&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CaseChatApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="casechat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.FITS.casechat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.FITS.casechat" />
+      <option name="MAIN_CLASS_NAME" value="com.FITS.casechat.CaseChatApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CaseChatApplicationTests.testMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="casechat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.FITS.casechat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.FITS.casechat" />
+      <option name="MAIN_CLASS_NAME" value="com.FITS.casechat.CaseChatApplicationTests" />
+      <option name="METHOD_NAME" value="testMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CasechatApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="casechat" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.FITS.casechat.CasechatApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CasechatApplication" />
+        <item itemvalue="JUnit.CaseChatApplicationTests" />
+        <item itemvalue="Application.CodeGenerator" />
+        <item itemvalue="Database Script.user.sql" />
+        <item itemvalue="JUnit.CaseChatApplicationTests.testMapper" />
       </list>
     </recent_temporary>
   </component>
@@ -85,8 +157,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1695388135895</updated>
-      <workItem from="1695388138408" duration="11020000" />
+      <workItem from="1695388138408" duration="11336000" />
+      <workItem from="1695560539628" duration="3565000" />
+      <workItem from="1695626297072" duration="17753000" />
     </task>
+    <task id="LOCAL-00001" summary="project initialization">
+      <created>1695399485272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695399485272</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +184,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="project initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="project initialization" />
   </component>
 </project>

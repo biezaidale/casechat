@@ -1,4 +1,4 @@
-package com.casechat;
+package com.FITS.casechat;
 
 
 import lombok.extern.slf4j.Slf4j;
